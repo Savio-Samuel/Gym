@@ -1,0 +1,61 @@
+:root {
+    --font: 'Montserrat';
+    --bg-color: #000000;
+    --color-text: #FFFFFF;
+    --color-secondary: #FAFF00;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: var(--bg-color);
+    color: var(--color-text);
+    font-family: var(--font);
+}
+body a {
+    color: inherit;
+    text-decoration: none;
+}
+#hero {
+    background: url(assets/background.png) no-repeat;
+    height: 49.4375rem;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12.5rem;
+    padding: 2.5rem 0 0;
+    width: 62.5rem;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.logo span {
+    color: var(--color-secondary);
+}
+.links {
+    display: flex;
+    gap: 4.6875rem;
+    padding: 0.1875rem;
+}
+.links a:hover {
+    color: var(--color-secondary);
+}
+.hero-text {
+    margin: 14.25rem 12.5rem 26.5625rem;
+    width: 41.75rem;
+}
+.hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: 3.75rem;
+}
+.hero-text a {
+    background: var(--color-secondary);
+    border-radius: 1.875rem;
+    color: var(--bg-color);
+    font-weight: 700 ;
+    padding: 1rem 3.125rem;
+}
