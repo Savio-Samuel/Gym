@@ -18,6 +18,12 @@ body a {
     color: inherit;
     text-decoration: none;
 }
+main section + section {
+    margin: 15.625rem 6.25rem;
+}
+section h2 {
+    font-size: 3rem;
+}
 #hero {
     background: url(assets/background.png) no-repeat;
     height: 49.4375rem;
@@ -58,4 +64,31 @@ body a {
     color: var(--bg-color);
     font-weight: 700 ;
     padding: 1rem 3.125rem;
+}
+#reasons h2 {
+    margin-bottom: 7.5rem;
+}
+.reasons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+    justify-content: space-between;
+}
+.reasons-content {
+    display: flex;
+    flex-shrink: 0;
+    gap: 1.25rem;
+    width: 31.25rem;
+}
+.reasons-content-title {
+    font-size: 1.125rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+}
+.reasons-content-text {
+    font-size: 0.875rem;
+}
+.reasons-content img {
+    height: 3.125rem;
+    width: 2.9375rem;
 }
