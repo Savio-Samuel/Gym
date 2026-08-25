@@ -243,3 +243,48 @@ button.right img {
     gap: 0.9375rem;
     justify-content: center;
 }
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.footer p {
+    font-size: 0.875rem;
+}
+.logo-infos {
+    width: 17.25rem;
+}
+.footer .logo-infos p {
+    margin-top: 1.625rem;
+}
+.address {
+    width: 10.875rem;
+}
+.footer .f-title {
+    font-size: 1.125rem;
+    font-weight: 800;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 14.5rem;
+}
+.contact-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    margin-bottom: 0.9375rem;
+}
+.contact-infos a {
+    align-items: center;
+    display: flex;
+    gap: 0.625rem;
+}
+.contact-social {
+    display: flex;
+    gap: 1.5rem;
+}
+.address > p,
+.contact > p {
+    margin-bottom: 1.875rem;
+}
